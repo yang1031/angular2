@@ -6,12 +6,14 @@ import { rootRouterConfig } from "./app.routes";
 import { AppComponent } from './app.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { IndexComponent } from './main/index/index.component';
+import { HeaderComponent } from './common/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    IndexComponent
+    IndexComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
