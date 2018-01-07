@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule } from "@angular/router";
+import { RouterModule } from '@angular/router';
 
-import { rootRouterConfig } from "./app.routes";
+import { routing } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { IndexComponent } from './main/index/index.component';
@@ -17,7 +17,7 @@ import { HeaderComponent } from './common/header/header.component';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(rootRouterConfig)
+    RouterModule.forRoot(routing)
   ],
   providers: [],
   bootstrap: [AppComponent]
