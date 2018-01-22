@@ -5,15 +5,15 @@ import { RouterModule } from '@angular/router';
 import { routing } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './common/footer/footer.component';
-import { IndexComponent } from './main/index/index.component';
 import { HeaderComponent } from './common/header/header.component';
+import { IndexComponent } from './index/index.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    IndexComponent,
-    HeaderComponent
+    HeaderComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,

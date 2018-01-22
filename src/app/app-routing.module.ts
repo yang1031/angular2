@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { AppComponent } from './app.component';
+import { IndexComponent } from './index/index.component';
 export const routing: Routes =  [
   // {
   //   path: '',
@@ -8,6 +8,7 @@ export const routing: Routes =  [
   // },
   {
     path: 'index',
-    component: AppComponent
+    component: IndexComponent,
+    children: []
   }
 ];
